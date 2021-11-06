@@ -1,0 +1,1 @@
+# don't forget to set AUTH_USER_MODEL= 'account.Account'
