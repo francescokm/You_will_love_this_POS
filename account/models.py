@@ -10,7 +10,7 @@ class Account_Manager(BaseUserManager):
             raise ValueError("You should Enter Email to be user")
         if not username:
             raise ValueError("You should Enter Username ")
-        if not phonw:
+        if not phone:
             raise ValueError("You should Enter phone ")
         user = self.model(
             email           =   self.normalize_email(email),

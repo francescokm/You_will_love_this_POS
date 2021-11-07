@@ -1,1 +1,12 @@
 # don't forget to set AUTH_USER_MODEL= 'account.Account'
+
+
+# LOGIN 
+
+* you need to include that path in your main url file 
+	
+	path('',include('django.contrib.auth.urls')),
+
+and inside your setting you need to configure the login redirect using this code 
+
+	LOGIN_REDIRECT_URL = '/'
